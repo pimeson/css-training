@@ -15,7 +15,7 @@
       
       
       <!-- Form -->
-      <section id='login-inputs'>
+      <section id='login-form'>
         <div class='login-input'>
           <label> Who's a good boy/girl? </label>
           <input />
@@ -44,13 +44,13 @@
 }
 #portrait {
 }
-#login-inputs {
+#login-form {
 }
-#login-inputs input {
+#login-form input {
 }
 .login-input {
 }
-#login-inputs a {
+#login-form a {
 }
 .login-input label {
 }
