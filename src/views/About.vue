@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <a href="https://slides.com/pimeson/deck-2">Slide Deck</a>
   </div>
 </template>
