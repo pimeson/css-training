@@ -9,7 +9,7 @@
       <button v-on:click='removeCar'> Remove Car </button>
       <button v-on:click='removeParadee'> Remove Paradee </button>
     </div>
-    <section class='band'>
+    <section class='road'>
       <div class='paradee' v-for="(paradee, index) in paradees" v-bind:index="index" v-bind:key="'soldier-tank-' + index">
         <div> {{ index }} </div>
         <div v-if="paradee === 'soldier'" class='soldier'> 💂‍ </div>
@@ -21,21 +21,24 @@
 
 
 <style>
+.paradee {
+  border: 2px red dotted;
+  font-size: 1em;
+  float: left;
+}
+.road {
+  border: 5px solid black;
+  width: 50vw;
+  background: slategrey;
+}
+
+
 .soldier {
   font-size: 5em;
 }
 .car {
   font-size: 10em;
 }
-.paradee {
-  border: 2px red dotted;
-  font-size: 1em;
-}
-.band {
-  border: 5px solid black;
-  width: 50vw;
-}
-
 .band-conductor {
   display: flex;
   flex-wrap: wrap;
