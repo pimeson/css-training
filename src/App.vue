@@ -6,7 +6,8 @@
       <router-link to="/parade">Parade</router-link> |
       <router-link to="/login">Login</router-link> |
       <router-link to="/Battleship">Battleship</router-link> |
-      <router-link to="/Playground">Playground</router-link>
+      <router-link to="/Playground">Playground</router-link> |
+      <router-link to="/GridArea">GridArea</router-link>
     </div>
     <router-view/>
   </div>

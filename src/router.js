@@ -6,6 +6,7 @@ import Parade from "./components/Parade.vue";
 import Login from "./components/Login.vue";
 import Battleship from "./components/Battleship.vue";
 import Playground from "./components/Playground.vue";
+import GridArea from "./components/GridArea.vue";
 
 Vue.use(Router);
 
@@ -40,6 +41,11 @@ export default new Router({
       path: "/Playground",
       name: "Playground",
       component: Playground
+    },
+    {
+      path: "/GridArea",
+      name: "GridArea",
+      component: GridArea
     }
   ]
 });
