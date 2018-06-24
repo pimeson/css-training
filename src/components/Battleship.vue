@@ -17,9 +17,6 @@
   height: 75vh;
   width: 75vh;
   border: 5px solid black;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
 }
 </style>
 

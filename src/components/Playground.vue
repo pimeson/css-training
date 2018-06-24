@@ -35,6 +35,11 @@ export default {
 </script>
 
 <style>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .parent {
   border: 5px solid black;
   height: 50vw;
@@ -56,7 +61,7 @@ export default {
   width: 50%;
 }
 .control button {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0.5em;
   margin: 1em 0 1em 0;
 }

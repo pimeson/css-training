@@ -20,11 +20,11 @@
 </template>
 
 
-<style>
+<style scoped>
 .paradee {
   border: 2px red dotted;
   font-size: 1em;
-  float: left;
+  
 }
 .road {
   border: 5px solid black;
@@ -51,7 +51,7 @@
   height: 100vh;
 }
 button {
-  margin-right: 5em;
+  margin-right: 3em;
 }
 </style>
 
